@@ -1,0 +1,14 @@
+class Addition {
+
+public int add(int a, int b) {
+
+  return a+b;
+}
+ public static void main(String[] args) {
+
+  Addition addition = new Addition();
+int data = addition.add(10,10);
+System.out.println("Addition of two numbers is " + data );
+  
+}
+}
